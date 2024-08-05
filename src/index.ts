@@ -1,4 +1,5 @@
 import "./index.css";
+import "reset-css";
 import { subtract } from "./app";
 
 function init() {
