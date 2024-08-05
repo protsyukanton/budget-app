@@ -30,7 +30,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Budget App',
-            template: 'src/custom.html'
+            template: 'src/index.html'
         }),
         new MiniCssExtractPlugin({
             filename: "bundle.css"
