@@ -1,4 +1,4 @@
-import styles "./index.css";
+import "./index.css";
 import { subtract } from "./app";
 
 function init() {
