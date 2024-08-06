@@ -1,0 +1,43 @@
+/* -------------------------------- global styles start */
+body {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+}
+/* -------------------------------- global styles end */
+
+/* -------------------------------- sum blocks styles start */
+.sum-blocks {
+    display: flex;
+    padding: 50px;
+    column-gap: 20px;
+}
+
+.sum-block {
+    width: 300px;
+    height: 140px;
+    background-color: rgb(202, 204, 207);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.sum-block--income {
+    background-color: rgb(159, 222, 140);
+}
+
+.sum-block--expenditure {
+    background-color: rgb(223, 115, 115);
+}
+
+.sum-block__title {
+    font-size: 24px;
+}
+
+.sum-block__value {
+    text-align: center;
+    font-size: 34px;
+}
+
+/* -------------------------------- sum blocks styles end */
